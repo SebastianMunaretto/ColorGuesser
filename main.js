@@ -20,6 +20,7 @@ function newGame() {
 
         // display color gets set
         colorCodeDisplay.innerHTML = metaColor
+        
 
         for (let square of colorSquares) {
             square.innerHTML = "";
